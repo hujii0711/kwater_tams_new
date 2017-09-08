@@ -1,6 +1,6 @@
 <%@page contentType="text/html; charset=utf-8" language="java"%>
 <%@include file="/cm/jsp/checkLogin.jsp"%>
-
+<!-- 1차 임포트 대상 커밋 테스트 -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:ev='http://www.w3.org/2001/xml-events' xmlns:w2='http://www.inswave.com/websquare' xmlns:xf='http://www.w3.org/2002/xforms'>
 	<head>
