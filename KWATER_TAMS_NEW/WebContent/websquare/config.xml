@@ -70,14 +70,14 @@
         공통 외부 js 모듈을 읽어 들인다.
     -->
     <engine>
-        <module src="/cm/js/ajax_lib.js" />
-        <module src="/cm/js/com_lib.js" />
-        <module src="/cm/js/date_lib.js" />
-        <module src="/cm/js/json_lib.js" />
-        <module src="/cm/js/num_lib.js" />
-        <module src="/cm/js/str_lib.js" />
-        <module src="/cm/js/val_lib.js" />
-        <module src="/cm/js/xml_lib.js" />
+        <module src="/resources/js/ajax_lib.js" />
+        <module src="/resources/js/com_lib.js" />
+        <module src="/resources/js/date_lib.js" />
+        <module src="/resources/js/json_lib.js" />
+        <module src="/resources/js/num_lib.js" />
+        <module src="/resources/js/str_lib.js" />
+        <module src="/resources/js/val_lib.js" />
+        <module src="/resources/js/xml_lib.js" />
     </engine> 
     <!--  
     <pageURLPrefix type="function" value="comLib.getI18NUrl()" />
