@@ -32,6 +32,8 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>com.framework.websquare.nature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>com.inswave.websquare.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
