@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet href="/cm/css/common.css" type="text/css"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet href="/resources/css/common.css" type="text/css"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
 	<head>
 		<title>웹스퀘어5 템플릿 프로젝트</title>
@@ -73,7 +73,7 @@
 				// TODO :: TabControl를 SPA 모드로 사용 시, spaIframeMinSize의 크기에 따라서 setTimeout를 이용해서 $w.url() 함수를 호출해야 한다.
 				// 현재 websquare.jsp 파일에서 웹스퀘어 엔진을 실행하기 전에 세션 체크를 하기 때문에 
 				// 서버측 로직에 문제가 있는 경우가 아니라면 아래의 로직이 수행될 경우는 거의 없다.
-				// $w.url(ajaxLib.CONTEXT_PATH + "/cm/ui/login.xml", {"spa" : false, "replaceHistory" : true});
+				// $w.url(ajaxLib.CONTEXT_PATH + "/main/login.xml", {"spa" : false, "replaceHistory" : true});
 				$w.setTimeout( function() { $w.url(ajaxLib.CONTEXT_PATH + "/main/login.xml", {"spa" : true, "replaceHistory" : true}); },
 					{ "key" : "interval1",
 					  "delay" : 1000 }
@@ -342,7 +342,7 @@
 ]]></script>
 	</head>
 	<body>
-		<w2:pageInherit id="comPage" src="/cm/common/content_common.xml" style="" />
+		<w2:pageInherit id="comPage" src="/xml/common/content_common.xml" style="" />
 		<xf:group class="" id="content_wrap" style="">
 			<xf:group class="" id="header" style="">
 				<xf:group class="fl" id="header_logo" style="">
@@ -357,7 +357,7 @@
 						</w2:textbox>
 
 					</xf:group>
-					<xf:group class="" id="header_menu" style="">
+					<!-- <xf:group class="" id="header_menu" style="">
 						<xf:group class="header_left" id="header_bg_left" style="" />
 						<xf:group class="header_m_grp" id="header_m_grp" style="">
 							<xf:group class="gnb_grp" id="header_topMenu" style="display: inline-block;height: 40px;line-height: 40px;">
@@ -380,7 +380,7 @@
 						</xf:group>
 						<xf:group class="header_right" id="header_bg_right" style="">
 						</xf:group>
-					</xf:group>
+					</xf:group> -->
 				</xf:group>
 			</xf:group>
 			<xf:group class="" id="container" style="">
@@ -461,7 +461,7 @@
 			<xf:group class="" id="footer_grp" style="height: 24px;border-top:1px solid grey;background:whitesmoke;margin:0;padding:0;">
 				<xf:group class="" id="grp_btns" style="" />
 				<xf:group class="" id="group2" style="position: absolute ;height:14px;left: 5px;bottom: 5px;">
-					<xf:image class="fl mr5" id="image211" src="/images/icon_main_search.png" style="" />
+					<xf:image class="fl mr5" id="image211" src="/resources/images/icon_main_search.png" style="" />
 					<xf:group class="fl" id="ft_cntGrp" style="position:relative;display:none;">
 						<w2:textbox class="fl mr5" id="ft_scrNm" label="P_000123" style="font-weight: bold;color: #262626;font-family: Apple SD Gothic NEO;">
 						</w2:textbox>
@@ -471,10 +471,10 @@
 						</w2:textbox>
 					</xf:group>
 					<w2:textbox class="fl mr5" id="tbx_ResultMessage" label="건이 조회되었습니다." style="color: #535f6e;font-family: Apple SD Gothic NEO;" />
-					<xf:image class="fl mr5 ml15" id="image212" src="/images/icon_main_lock.png" style="" />
+					<xf:image class="fl mr5 ml15" id="image212" src="/resources/images/icon_main_lock.png" style="" />
 					<w2:textbox class="fl" id="tbx_loginNm" label="접속자" style="color: #535f6e;font-weight:bold;font-family: Apple SD Gothic NEO;">
 					</w2:textbox>
-					<xf:image class="fl mr5 ml15" id="image213" src="/images/icon_main_clock.png" style="float:left;" />
+					<xf:image class="fl mr5 ml15" id="image213" src="/resources/images/icon_main_clock.png" style="float:left;" />
 					<w2:textbox class="fl mr5" id="tbx_time" label="" style="color: #535f6e;font-family: Apple SD Gothic NEO;" />
 				</xf:group>
 			</xf:group>

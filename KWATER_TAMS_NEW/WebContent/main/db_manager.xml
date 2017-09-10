@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/cm/css/common.css" type="text/css"?>
+<?xml-stylesheet href="/resources/css/common.css" type="text/css"?>
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:ev="http://www.w3.org/2001/xml-events"
 	xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
@@ -52,7 +52,7 @@
 		]]></script>
 	</head>
 	<body>
-		<w2:pageInherit id="comPage" src="/cm/common/content_common.xml" style=""></w2:pageInherit>
+		<w2:pageInherit id="comPage" src="/xml/common/content_common.xml" style=""></w2:pageInherit>
 		<xf:group class="" id="group1" style="">
 			<xf:group class="cnt_title_grp" id="group2" style="height:30px;">
 				<w2:textbox class="" id="textbox1" label="메뉴관리" style="" tagname="h1"></w2:textbox>

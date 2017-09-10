@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet href="/cm/css/common.css"" type="text/css"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet href="/resources/css/common.css"" type="text/css"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
 	<head>
 		<w2:buildDate />
@@ -70,8 +70,8 @@
 		]]></script>
 	</head>
 	<body>
-		<w2:pageInherit id="comPage" src="/cm/common/content_common.xml" style="" />
-		<xf:group id="group1" style="position:relative;width:1024px;height:764px;top:50px;left:50%;margin-left: -512px;background-image: url(/images/login.jpg);">
+		<w2:pageInherit id="comPage" src="/xml/common/content_common.xml" style="" />
+		<xf:group id="group1" style="position:relative;width:1024px;height:764px;top:50px;left:50%;margin-left: -512px;background-image: url(/resources/images/login.jpg);">
 			<xf:group id="grp_LoginInfo" style="position:absolute;top:385px;left:384px;width:228px;height:46px;">
 				<xf:input displaymessage="" enterBlur="false" id="ibx_UserId" mandatory="true" maxByteLength="" placeholder="사번을 입력하세요" ref="data:dma_ReqInfo.EMP_CD"
 					style="position: absolute;left:0px;top:0px;width: 224px;height: 19px;border: none;" />
